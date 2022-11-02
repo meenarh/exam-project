@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import About from './pages/About'
-import User from './pages/User'
+import User from './pages/Users'
 import Error from './pages/Error';
 import { ErrorBoundary } from './ErrorBoundary';
 
