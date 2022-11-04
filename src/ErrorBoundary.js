@@ -1,5 +1,6 @@
 import { Component } from "react";
 import './App.css'
+import ServerError from "./components/ServerError";
 
 export class ErrorBoundary extends Component {
   constructor(props) {
@@ -20,7 +21,7 @@ export class ErrorBoundary extends Component {
   render() {
     if (this.state.hasError) {
       // You can render any custom fallback UI
-      return <h1 className="error-test">Oh no! An error has occured🥲</h1>;
+      return <ServerError />;
     }
 
     return this.props.children;
