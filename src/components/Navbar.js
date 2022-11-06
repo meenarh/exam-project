@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="nav-links flex-1">
             <NavLink className='links p-4'
               style={({ isActive }) => ({
-                color: isActive ? "#7C2121" : "",
+                color: isActive ? "#CFBAF0" : "",
               })}
               to="/"
             >
@@ -38,7 +38,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink className='links p-4 hover:bg-white'
               style={({ isActive }) => ({
-                color: isActive ? "#7C2121" : "",
+                color: isActive ? "#CFBAF0" : "",
               })}
               to="/about"
             >
@@ -50,7 +50,7 @@ const Navbar = () => {
                 <>
                 <NavLink className='links p-4 hover:bg-white'  
                   style={({ isActive }) => ({
-                    color: isActive ? "#7C2121" : "",
+                    color: isActive ? "#CFBAF0" : "",
                   })}
                   to="/users"
                 >
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink className='links p-4 hover:bg-white'
                   style={({ isActive }) => ({
-                    color: isActive ? "#7C2121" : "",
+                    color: isActive ? "#CFBAF0" : "",
                   })}
                   to="/error-test"
                 >
@@ -72,7 +72,7 @@ const Navbar = () => {
                 <>
                 <NavLink className='links p-4 hover:bg-white'
                   style={({ isActive }) => ({
-                    color: isActive ? "#7C2121" : "",
+                    color: isActive ? "#CFBAF0" : "",
                   })}
                   to="/login"
                 >
@@ -80,7 +80,7 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink className='links p-4 hover:bg-white'
                   style={({ isActive }) => ({
-                    color: isActive ? "#7C2121" : "",
+                    color: isActive ? "#CFBAF0" : "",
                   })}
                   to="/signup"
                 >

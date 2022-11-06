@@ -15,7 +15,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  color: #7c2121;
+  color: #CFBAF0;
 }
 
 .nav-links {
@@ -29,14 +29,14 @@
 }
 
 .nav-links a:hover {
-  color: #7c2121;
-  border: 1px solid #7c2121;
+  color: #CFBAF0;
+  border: 1px solid #CFBAF0;
   border-radius: 10px;
 }
 
 .nav-links button:hover {
-  color: #7c2121;
-  border: 1px solid #7c2121;
+  color: #CFBAF0;
+  border: 1px solid #CFBAF0;
   border-radius: 10px;
 }
 
@@ -102,7 +102,7 @@
   align-items: center;
   width: 540px;
   height: 62px;
-  background: #7c2121;
+  background: #CFBAF0;
   color: #ffffff;
   border-radius: 8px;
 }
@@ -113,7 +113,7 @@
   width: 540px;
   height: 62px;
   background: #ffffff;
-  color: #7c2121;
+  color: #CFBAF0;
   border: 1px solid #202020;
   border-radius: 8px;
 }
@@ -128,7 +128,7 @@
 } */
 
 .create-link {
-  color: #7c2121;
+  color: #CFBAF0;
 }
 
 .image img {
@@ -191,7 +191,7 @@
 /* Home */
 
 .body {
-  background: #7c2121;
+  background: #CFBAF0;
   width: 95%;
   height: 600px;
   border-radius: 16px;
@@ -224,13 +224,13 @@ a.home-btn {
   width: 280px;
   height: 62px;
   background: #ffffff;
-  color: #7c2121;
+  color: #CFBAF0;
   border-radius: 8px;
 }
 
 a.home-btn:hover {
   color: #ffffff;
-  background: #7c2121;
+  background: #CFBAF0;
   border: 1px solid #ffffff;
 }
 
@@ -275,7 +275,7 @@ a.home-btn:hover {
   line-height: 22px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #7c2121;
+  color: #CFBAF0;
 }
 
 .about-info h4 {
@@ -317,15 +317,15 @@ a.home-btn:hover {
 .about-btn {
   width: 250px;
   height: 60px;
-  background: #7c2121;
+  background: #CFBAF0;
   color: #ffffff;
   border-radius: 8px;
 }
 
 .about-btn:hover {
-  color: #7c2121;
+  color: #CFBAF0;
   background: #ffffff;
-  border: 1px solid #7c2121;
+  border: 1px solid #CFBAF0;
 }
 
 @media (max-width: 768px) {
@@ -362,7 +362,7 @@ h3.user {
   font-weight: 500;
   font-size: 40px;
   line-height: 65px;
-  color: #7c2121;
+  color: #CFBAF0;
 }
 
 .card {
@@ -376,7 +376,7 @@ h3.user {
 .profile-img {
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #7c2121;
+  border: 2px solid #CFBAF0;
   width: 150px;
   height: 150px;
 }
@@ -389,17 +389,17 @@ h3.user {
 }
 
 .info h3 {
-  color: #7c2121;
+  color: #CFBAF0;
   text-align: center;
 }
 
 .info h4 {
-  color: #7c2121;
+  color: #CFBAF0;
   text-align: center;
 }
 
 .info p {
-  color: #7c2121;
+  color: #CFBAF0;
   text-align: center;
 }
 
@@ -423,30 +423,30 @@ h3.user {
 
 .prev-btn {
   background: #ffffff;
-  color: #7c2121;
+  color: #CFBAF0;
   border-radius: 12px;
   width: 120px;
   height: 50px;
-  border: 1px solid#7c2121;
+  border: 1px solid#CFBAF0;
 }
 
 .prev-btn:hover {
   color: #ffffff;
-  background: #7c2121;
+  background: #CFBAF0;
 }
 
 .nxt-btn {
   background: #ffffff;
-  color: #7c2121;
+  color: #CFBAF0;
   border-radius: 12px;
   width: 120px;
   height: 50px;
-  border: 1px solid#7c2121;
+  border: 1px solid#CFBAF0;
 }
 
 .nxt-btn:hover {
   color: #ffffff;
-  background: #7c2121;
+  background: #CFBAF0;
 }
 
 /* Error */
@@ -472,7 +472,7 @@ h3.user {
 .error-btn {
   width: 350px;
   height: 62px;
-  background: #7c2121;
+  background: #CFBAF0;
   color: #FFFFFF;
   border-radius: 8px;
 }
@@ -492,7 +492,7 @@ h3.user {
 
 /* extra */
 .loading {
-  color: #7c2121;
+  color: #CFBAF0;
   margin-top: 25%;
 }
 
@@ -504,5 +504,5 @@ h3.user {
 
 .error-test {
   margin-top: 25%;
-  color: #7c2121;
+  color: #CFBAF0;
 }
