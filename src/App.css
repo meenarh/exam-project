@@ -365,6 +365,7 @@ h3.user {
 }
 
 .card {
+  background: #EDF2F4;
   border-radius: 12px;
   text-align: center;
   width: 450px;
@@ -381,6 +382,11 @@ h3.user {
 }
 
 .info {
+  background-color: #CDB4DB;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
   height: 140px;
   border-radius: 10px;
   line-height: 1;
@@ -388,17 +394,17 @@ h3.user {
 }
 
 .info h3 {
-  color: #CDB4DB;
+  color: #000000;
   text-align: center;
 }
 
 .info h4 {
-  color: #CDB4DB;
+  color: #000000;
   text-align: center;
 }
 
 .info p {
-  color: #CDB4DB;
+  color: #000000;
   text-align: center;
 }
 
