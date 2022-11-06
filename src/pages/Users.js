@@ -61,17 +61,19 @@ const Users = () => {
 
   if (isLoading) {
     return (
-      <div className="loading">
+      <div className="loading text-center">
         Please wait, your request is being processed....
       </div>
     );
   }
 
   return (
-    <div className="User-Page">
+    <div className="user-page text-center p-3">
       <Navbar />
+      <h3 className="user text-center">Your Team's Data</h3>
+
       <div className="left">
-        <div className="user-container">
+        <div className="user-container grid grid-cols-3 gap-2">
           <UsersProfile users={getCurrentPageData(pageNumber)} />
         </div>
         <UsersFooter

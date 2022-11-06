@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./Navbar";
 
 const ServerError = () => {
   return (
-    <h1 className="error-test">Oh no! An error has occured🥲</h1>
-  )
-}
+    <>
+      <Navbar />
 
-export default ServerError
+      <h1 className="error-test text-center">Oh no! An error has occured🥲</h1>
+    </>
+  );
+};
+
+export default ServerError;

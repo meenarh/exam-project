@@ -1,5 +1,6 @@
 import { Component } from "react";
 import './App.css'
+import Navbar from "./components/Navbar";
 import ServerError from "./components/ServerError";
 
 export class ErrorBoundary extends Component {
@@ -24,6 +25,10 @@ export class ErrorBoundary extends Component {
       return <ServerError />;
     }
 
-    return this.props.children;
+    return <>
+    <Navbar />
+      <p className="text-2xl text-center" style={{marginTop: '20%', color: '#7c2121'}}>No Error</p>
+      {this.props.children}
+    </>;
   }
 }

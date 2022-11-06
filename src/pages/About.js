@@ -1,20 +1,29 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import image from "../assets/images/image-3.png";
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      <h1>About</h1>
+      <div className="about flex p-12 m-12">
+        <section className="about-img p-8">
+          <img src={image} alt="people laughing"/>
+        </section>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh non et
-        orci ultrices dictum aliquam pretium cras. Sollicitudin cursus penatibus
-        ipsum sit praesent sem erat. Massa leo placerat viverra viverra
-        vulputate neque orci. Aliquam elementum mauris, pellentesque ullamcorper
-        vitae. Quis rutrum dui vulputate facilisis. Proin faucibus turpis
-        suspendisse fermentum odio etiam velit lectus
-      </p>
+        <section className="about-info p-8">
+          <h2 className="p-3">About the company</h2>
+          <h4 className="p-3">Manage and easily access your teams database</h4>
+          <p className="p-3">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p >
+
+          <p className="num p-6">500k+ <span>Users per day</span></p>
+          <button className="about-btn">Learn More</button>
+        </section>
+      </div>
     </div>
   );
 };
