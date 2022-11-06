@@ -17,7 +17,7 @@ export const User = ({ user }) => {
             />
           </div>
 
-          <div className="info p-4 text-justify">
+          <div className="info p-4 mt-10 text-justify">
             <h3 className="username flex p-1">
               <RiUserHeartLine className="mr-3" /> {user.name?.title}.{" "}
               {user.name?.first} {user.name?.last}
