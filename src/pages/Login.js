@@ -1,49 +1,44 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import {
-  auth,
-  signInWithGoogle,
-} from "../firebase";
+import { auth, signInWithGoogle } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { logInWithEmailAndPassword } from "../firebase";
 import image from "../assets/images/image-2.png";
 import formatErrorMessage from "../utils/formatErrorMessage";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
-
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [user, loading, error] = useAuthState(auth);
-  console.log(error)
+  console.log(error);
 
   const navigate = useNavigate();
 
-  const onLogin = async (e) =>{
+  const onLogin = async (e) => {
     e.preventDefault();
-    try{
+    try {
       if (!email || !password) {
         alert("Please fill out all fields.");
         return false;
+      }
+      await logInWithEmailAndPassword(email, password);
+      navigate("/");
+    } catch (error) {
+      console.log(error);
+      alert(formatErrorMessage(error.message));
     }
-    await logInWithEmailAndPassword(email, password)
-    navigate('/')
-    }catch(error){
-      console.log(error)
-      alert(formatErrorMessage(error.message))
-    }
-  } 
+  };
 
-  const registerWithGoogle = async (e) =>{
+  const registerWithGoogle = async (e) => {
     e.preventDefault();
-    try{
-      await signInWithGoogle()
-      navigate('/')
-    }catch(err){
-      alert(formatErrorMessage(err.message))
+    try {
+      await signInWithGoogle();
+      navigate("/");
+    } catch (err) {
+      alert(formatErrorMessage(err.message));
     }
-    
-  }
+  };
 
   useEffect(() => {
     if (loading) {
@@ -55,6 +50,15 @@ const Login = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="Sign In"
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
+
       <div className="main flex">
         <section className="form flex-auto mt-4 ml-16 mr-10">
           <h4 className="logo mt-4 ml-1">D_C</h4>

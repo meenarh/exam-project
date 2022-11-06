@@ -3,12 +3,21 @@ import Navbar from "../components/Navbar";
 import image from "../assets/images/image-1.png";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Auth";
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   const { currentUser } = useContext(AuthContext);
 
   return (
     <div className="body-container">
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content=" Home"
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
       <Navbar />
 
       <div className="body flex m-12">

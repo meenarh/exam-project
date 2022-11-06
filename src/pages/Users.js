@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from "react";
-import axios from 'axios'
-import {User} from "../components/User";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import { User } from "../components/User";
 import Navbar from "../components/Navbar";
 import { UsersFooter } from "../components/UserFooter";
-
+import { Helmet } from "react-helmet-async";
 
 function UsersProfile({ users }) {
   return users.map((user) => {
@@ -16,7 +16,6 @@ const Users = () => {
   const [users, setUsers] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
-
   const getData = async (page) => {
     setIsLoading(true);
     const { data } = await axios.get(
@@ -25,7 +24,7 @@ const Users = () => {
 
     const details = data.results;
     if (page > 1 || details.length > 0) {
-      setUsers((prev) =>  [...prev, ...details]);
+      setUsers((prev) => [...prev, ...details]);
     } else {
       setUsers(details);
     }
@@ -69,6 +68,15 @@ const Users = () => {
 
   return (
     <div className="user-page text-center p-3">
+      <Helmet>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="Team details page of D_C, Aminat's exam project"
+        />
+        <link rel="canonical" href="/" />
+      </Helmet>
+
       <Navbar />
       <h3 className="user text-center">Your Team's Data</h3>
 
@@ -84,7 +92,6 @@ const Users = () => {
           hasPreviousPage={pageNumber > 1}
         />
       </div>
-
     </div>
   );
 };
