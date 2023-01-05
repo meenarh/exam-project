@@ -27,7 +27,7 @@ export class ErrorBoundary extends Component {
 
     return <>
     <Navbar />
-      <p className="text-2xl text-center" style={{marginTop: '20%', color: '#CDB4DB'}}>No Error</p>
+      <p className="text-2xl text-center" style={{marginTop: '20%', color: '#A2D2FF'}}>No Error</p>
       {this.props.children}
     </>;
   }

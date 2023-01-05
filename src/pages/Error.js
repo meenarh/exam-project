@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import image from "../assets/images/image-5.png";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import Footer from "../components/Footer";
 
 const Error = () => {
   return (
@@ -34,6 +35,7 @@ const Error = () => {
           <img src={image} alt="Crying" />
         </section>
       </div>
+      <Footer/>
     </div>
   );
 };

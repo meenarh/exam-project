@@ -4,6 +4,7 @@ import { User } from "../components/User";
 import Navbar from "../components/Navbar";
 import { UsersFooter } from "../components/UserFooter";
 import { Helmet } from "react-helmet-async";
+import Footer from "../components/Footer";
 
 function UsersProfile({ users }) {
   return users.map((user) => {
@@ -23,6 +24,7 @@ const Users = () => {
     );
 
     const details = data.results;
+
     if (page > 1 || details.length > 0) {
       setUsers((prev) => [...prev, ...details]);
     } else {
@@ -78,7 +80,7 @@ const Users = () => {
       </Helmet>
 
       <Navbar />
-      <h3 className="user text-center">Your Team's Data</h3>
+      <h3 className="user text-center text-black">Your Team's Data</h3>
 
       <div className="left">
         <div className="user-container grid grid-cols-3 gap-2">
@@ -92,6 +94,7 @@ const Users = () => {
           hasPreviousPage={pageNumber > 1}
         />
       </div>
+      <Footer />
     </div>
   );
 };

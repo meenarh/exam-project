@@ -4,6 +4,7 @@ import image from "../assets/images/image-1.png";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Auth";
 import { Helmet } from "react-helmet-async";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const { currentUser } = useContext(AuthContext);
@@ -39,6 +40,8 @@ const Home = () => {
           <img src={image} alt="girl-laughing" />
         </section>
       </div>
+
+      <Footer />
     </div>
   );
 };

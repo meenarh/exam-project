@@ -8,16 +8,16 @@ export const User = ({ user }) => {
   return (
     <div className="users p-3">
       <div className="container">
-        <div className="card m-2 p-1" key={user.id}>
-          <div className="card-image mb-2">
+        <div className="card relative" key={user.id}>
+          <div className="card-image" >
             <img
-              className="profile-img ml-auto mr-auto block mt-6"
+              className="profile-img ml-auto mr-auto block absolute"
               alt="ProfileImg"
-              src={user.picture?.medium}
+              src={user.picture?.large}
             />
           </div>
 
-          <div className="info p-4 mt-10 text-justify">
+          <div className="info text-justify absolute">
             <h3 className="username flex p-1">
               <RiUserHeartLine className="mr-3" /> {user.name?.title}.{" "}
               {user.name?.first} {user.name?.last}

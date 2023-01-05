@@ -25,12 +25,12 @@ const Navbar = () => {
     return (
       <div>
         <nav className="flex p-5">
-          <h4 className="logo p-4">D_C</h4>
+          <h4 className="logo p-4 text-black">D_C</h4>
 
           <div className="nav-links flex-1">
             <NavLink className='links p-4'
               style={({ isActive }) => ({
-                color: isActive ? "#CFBAF0" : "",
+                color: isActive ? "#A2D2FF" : "",
               })}
               to="/"
             >
@@ -38,7 +38,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink className='links p-4 hover:bg-white'
               style={({ isActive }) => ({
-                color: isActive ? "#CFBAF0" : "",
+                color: isActive ? "#A2D2FF" : "",
               })}
               to="/about"
             >
@@ -50,7 +50,7 @@ const Navbar = () => {
                 <>
                 <NavLink className='links p-4 hover:bg-white'  
                   style={({ isActive }) => ({
-                    color: isActive ? "#CFBAF0" : "",
+                    color: isActive ? "#A2D2FF" : "",
                   })}
                   to="/users"
                 >
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink className='links p-4 hover:bg-white'
                   style={({ isActive }) => ({
-                    color: isActive ? "#CFBAF0" : "",
+                    color: isActive ? "#A2D2FF" : "",
                   })}
                   to="/error-test"
                 >
@@ -72,7 +72,7 @@ const Navbar = () => {
                 <>
                 <NavLink className='links p-4 hover:bg-white'
                   style={({ isActive }) => ({
-                    color: isActive ? "#CFBAF0" : "",
+                    color: isActive ? "#A2D2FF" : "",
                   })}
                   to="/login"
                 >
@@ -80,7 +80,7 @@ const Navbar = () => {
                 </NavLink>
                 <NavLink className='links p-4 hover:bg-white'
                   style={({ isActive }) => ({
-                    color: isActive ? "#CFBAF0" : "",
+                    color: isActive ? "#A2D2FF" : "",
                   })}
                   to="/signup"
                 >
