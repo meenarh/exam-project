@@ -48,7 +48,7 @@ const About = () => {
       </div>
 
       <div className="companies mb-8 mt-8">
-          <p className="text-center">Trusted by more than 100+ Startup</p>
+          <p className="text-center">Trusted by more than 100+ Startups</p>
           <div className="companies-img-desktop flex flex-row gap-14 justify-center">
             <img src={google} alt="google" className="bg-white" />
             <img src={clickup} alt="clickup" className="bg-white" />

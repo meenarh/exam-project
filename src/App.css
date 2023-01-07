@@ -28,14 +28,14 @@
 }
 
 .nav-links a:hover {
-  color: #a2d2ff;
-  border: 1px solid #a2d2ff;
+  color: #A2D2FF;
+  border: 1px solid #A2D2FF;
   border-radius: 10px;
 }
 
 .nav-links button:hover {
-  color: #a2d2ff;
-  border: 1px solid #a2d2ff;
+  color: #A2D2FF;
+  border: 1px solid #A2D2FF;
   border-radius: 10px;
 }
 
@@ -100,7 +100,7 @@
   align-items: center;
   width: 540px;
   height: 62px;
-  background: #a2d2ff;
+  background: #A2D2FF;
   color: #000000;
   border-radius: 8px;
 }
@@ -111,13 +111,13 @@
   width: 540px;
   height: 62px;
   background: #ffffff;
-  color: #a2d2ff;
+  color: #A2D2FF;
   border: 1px solid #202020;
   border-radius: 8px;
 }
 
 .create-link {
-  color: #a2d2ff;
+  color: #A2D2FF;
 }
 
 .image img {
@@ -180,7 +180,7 @@
 /* Home */
 
 .body {
-  background: #a2d2ff;
+  background: #A2D2FF;
   width: 95%;
   height: 600px;
   border-radius: 16px;
@@ -217,13 +217,13 @@ a.home-btn {
   width: 280px;
   height: 62px;
   background: #000000;
-  color: #a2d2ff;
+  color: #A2D2FF;
   border-radius: 8px;
 }
 
 a.home-btn:hover {
   color: #000000;
-  background: #a2d2ff;
+  background: #A2D2FF;
   border: 1px solid #000000;
 }
 
@@ -304,7 +304,7 @@ a.home-btn:hover {
   line-height: 22px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #a2d2ff;
+  color: #A2D2FF;
 }
 
 .about-info h4 {
@@ -346,15 +346,15 @@ a.home-btn:hover {
 .about-btn {
   width: 250px;
   height: 60px;
-  background: #a2d2ff;
+  background: #A2D2FF;
   color: #000000;
   border-radius: 8px;
 }
 
 .about-btn:hover {
-  color: #a2d2ff;
+  color: #A2D2FF;
   background: #000000;
-  border: 1px solid #a2d2ff;
+  border: 1px solid #A2D2FF;
 }
 
 @media (max-width: 768px) {
@@ -465,7 +465,7 @@ h3.user {
 
 .prev-btn {
   background: #ffffff;
-  color: #a2d2ff;
+  color: #A2D2FF;
   border-radius: 12px;
   width: 120px;
   height: 50px;
@@ -474,12 +474,12 @@ h3.user {
 
 .prev-btn:hover {
   color: #000000;
-  background: #a2d2ff;
+  background: #A2D2FF;
 }
 
 .nxt-btn {
   background: #ffffff;
-  color: #a2d2ff;
+  color: #A2D2FF;
   border-radius: 12px;
   width: 120px;
   height: 50px;
@@ -488,7 +488,7 @@ h3.user {
 
 .nxt-btn:hover {
   color: #000000;
-  background: #a2d2ff;
+  background: #A2D2FF;
 }
 
 /* Error */
@@ -514,7 +514,7 @@ h3.user {
 .error-btn {
   width: 350px;
   height: 62px;
-  background: #a2d2ff;
+  background: #A2D2FF;
   color: #000000;
   border-radius: 8px;
 }
@@ -534,7 +534,7 @@ h3.user {
 
 /* extra */
 .loading {
-  color: #a2d2ff;
+  color: #A2D2FF;
   margin-top: 25%;
 }
 
@@ -546,7 +546,7 @@ h3.user {
 
 .error-test {
   margin-top: 25%;
-  color: #a2d2ff;
+  color: #A2D2FF;
 }
 
 /* footer */
